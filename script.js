@@ -1,20 +1,9 @@
 var video = document.getElementById("video")
 
-function over(element) {
-    play()  
-}
-    
-function out(element) {
-    pause() 
+function playVideo(vid){
+    vid.play();
 }
 
-
-
-function beginPlay(element){
-    console.log(element);
-
-}
-
-function endPlay(element){
-
+function pauseVideo(vid){
+    vid.pause();
 }
