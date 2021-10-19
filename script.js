@@ -1,5 +1,3 @@
-var video = document.getElementById("video")
-
 function playVideo(vid){
     vid.play();
 }
